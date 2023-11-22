@@ -1,0 +1,815 @@
+{
+	"id": "c6e65a36-7df2-4e79-9243-eebabb47f0c3",
+	"name": "TEST",
+	"timestamp": "2023-11-21T14:06:59.350Z",
+	"collection_id": "17218677-85250aa6-80ae-4654-a7ea-62dd81b5e1aa",
+	"folder_id": 0,
+	"environment_id": "17218677-fe98ee1d-cfe6-46ce-90a1-2c5520e92e9d",
+	"totalPass": 26,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-11-21T14:06:53.875Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "92e4a174-d7d0-458f-af1b-086f37e42eb0",
+			"name": "Test headers",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 147,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type header is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Content-Type header is present": true
+				}
+			]
+		},
+		{
+			"id": "251a72cb-6de7-4e42-a16e-ebab08866051",
+			"name": "Response body",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				148
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "70a9a1e7-2cbc-41a6-a0d3-2dae4b9ef521",
+			"name": "Status Code 200",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "eb680ea3-0cf7-42bc-8f33-d80bee127502",
+			"name": "Status Code 404",
+			"url": "http://jsonplaceholder.typicode.com/posts/nonexistent",
+			"time": 134,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "03b26463-e86f-44e7-a5c7-429efd65075b",
+			"name": "Status Code 500",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/?user_request=enviarerro400",
+			"time": 209,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "29d20568-fa75-42a9-8607-9745089371e2",
+			"name": "Test headers",
+			"url": "http://jsonplaceholder.typicode.com/posts/1",
+			"time": 183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type header is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				183
+			],
+			"allTests": [
+				{
+					"Content-Type header is present": true
+				}
+			]
+		},
+		{
+			"id": "c840044d-be04-4d70-85a1-1e1a2ec349ce",
+			"name": "Response body",
+			"url": "http://jsonplaceholder.typicode.com/posts/1",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"quia et suscipit": true
+			},
+			"testPassFailCounts": {
+				"quia et suscipit": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"quia et suscipit": true
+				}
+			]
+		},
+		{
+			"id": "686f799f-bf33-4902-b9a2-9c478956947c",
+			"name": "Status Code 200",
+			"url": "http://jsonplaceholder.typicode.com/posts/1",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5ab72f02-52e8-41b3-91b6-557d8eb5ca2e",
+			"name": "Status Code 404",
+			"url": "http://jsonplaceholder.typicode.com/pos6ts/1",
+			"time": 165,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				165
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "41b6fa50-9ead-4c4c-9bbd-0740703bc889",
+			"name": "Status Code 500",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/comments?user_request=enviarerro400",
+			"time": 188,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "b3364327-2629-4fad-b637-8bfcdde61c44",
+			"name": "Test headers Comments",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/comments",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type header is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				185
+			],
+			"allTests": [
+				{
+					"Content-Type header is present": true
+				}
+			]
+		},
+		{
+			"id": "1852f8c7-3e02-4f55-a88a-2de5ea2eaee8",
+			"name": "Response body Comments",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/comments",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "7a7a6892-3977-4422-87a1-88b6fa193079",
+			"name": "Status Code 200",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/comments",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "be8b3899-5343-4a8c-a5e0-0ec941aed598",
+			"name": "Status Code 404",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/commentss",
+			"time": 134,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "64d1957e-6d5e-49b1-9184-0cdc5a364e62",
+			"name": "Status Code 500",
+			"url": "http://jsonplaceholder.typicode.com/posts/1/comments?user_request=enviarerro400",
+			"time": 222,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "52219157-428e-4498-91cb-046b7ce45e86",
+			"name": "Test headers Comments Post",
+			"url": "http://jsonplaceholder.typicode.com/comments?postId=1",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type header is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				185
+			],
+			"allTests": [
+				{
+					"Content-Type header is present": true
+				}
+			]
+		},
+		{
+			"id": "ae623ae9-fb95-4b73-86e0-c94a5ec25f37",
+			"name": "Response body Comments Post",
+			"url": "http://jsonplaceholder.typicode.com/comments?postId=1",
+			"time": 185,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				185
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "63bdd44e-d868-4c0f-b85a-2c2ffcf82b79",
+			"name": "Status Code 200",
+			"url": "http://jsonplaceholder.typicode.com/comments?postId=1",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "62400c1e-e6ef-4dbf-975e-e5e989fe0b9b",
+			"name": "Status Code 404",
+			"url": "http://jsonplaceholder.typicode.com/commentss?postd=1",
+			"time": 224,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "6e0f9696-975c-48d2-83b3-b24e48b54284",
+			"name": "Status Code 500",
+			"url": "http://jsonplaceholder.typicode.com/commentss?postd=1s?user_request=enviarerro400",
+			"time": 191,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "86c28076-90ed-4aab-8c43-e52a16ded893",
+			"name": "Test headers",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 189,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Content-Type header is present": true
+			},
+			"testPassFailCounts": {
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				189
+			],
+			"allTests": [
+				{
+					"Content-Type header is present": true
+				}
+			]
+		},
+		{
+			"id": "42150a90-424d-4de9-bd6f-3c5fd1faf0c0",
+			"name": "Response body",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 190,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				190
+			],
+			"allTests": [
+				{
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "b2bcb7d9-7a72-4db3-8529-47ab258146ec",
+			"name": "Status Code 201",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 189,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				189
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "fdce299f-1541-4aa3-8808-526112269ec5",
+			"name": "Status Code 404",
+			"url": "http://jsonplaceholder.typicode.com/poooost/1",
+			"time": 188,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "512026aa-6d58-477c-b0b9-476bc42017c4",
+			"name": "Status Code 500",
+			"url": "http://jsonplaceholder.typicode.com/posts/",
+			"time": 184,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				184
+			],
+			"allTests": [
+				{
+					"Status code is 400": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4267,
+	"collection": {
+		"requests": [
+			{
+				"id": "92e4a174-d7d0-458f-af1b-086f37e42eb0",
+				"method": "GET"
+			},
+			{
+				"id": "251a72cb-6de7-4e42-a16e-ebab08866051",
+				"method": "GET"
+			},
+			{
+				"id": "70a9a1e7-2cbc-41a6-a0d3-2dae4b9ef521",
+				"method": "GET"
+			},
+			{
+				"id": "eb680ea3-0cf7-42bc-8f33-d80bee127502",
+				"method": "GET"
+			},
+			{
+				"id": "03b26463-e86f-44e7-a5c7-429efd65075b",
+				"method": "GET"
+			},
+			{
+				"id": "29d20568-fa75-42a9-8607-9745089371e2",
+				"method": "GET"
+			},
+			{
+				"id": "c840044d-be04-4d70-85a1-1e1a2ec349ce",
+				"method": "GET"
+			},
+			{
+				"id": "686f799f-bf33-4902-b9a2-9c478956947c",
+				"method": "GET"
+			},
+			{
+				"id": "5ab72f02-52e8-41b3-91b6-557d8eb5ca2e",
+				"method": "GET"
+			},
+			{
+				"id": "41b6fa50-9ead-4c4c-9bbd-0740703bc889",
+				"method": "GET"
+			},
+			{
+				"id": "b3364327-2629-4fad-b637-8bfcdde61c44",
+				"method": "GET"
+			},
+			{
+				"id": "1852f8c7-3e02-4f55-a88a-2de5ea2eaee8",
+				"method": "GET"
+			},
+			{
+				"id": "7a7a6892-3977-4422-87a1-88b6fa193079",
+				"method": "GET"
+			},
+			{
+				"id": "be8b3899-5343-4a8c-a5e0-0ec941aed598",
+				"method": "GET"
+			},
+			{
+				"id": "64d1957e-6d5e-49b1-9184-0cdc5a364e62",
+				"method": "GET"
+			},
+			{
+				"id": "52219157-428e-4498-91cb-046b7ce45e86",
+				"method": "GET"
+			},
+			{
+				"id": "ae623ae9-fb95-4b73-86e0-c94a5ec25f37",
+				"method": "GET"
+			},
+			{
+				"id": "63bdd44e-d868-4c0f-b85a-2c2ffcf82b79",
+				"method": "GET"
+			},
+			{
+				"id": "62400c1e-e6ef-4dbf-975e-e5e989fe0b9b",
+				"method": "GET"
+			},
+			{
+				"id": "6e0f9696-975c-48d2-83b3-b24e48b54284",
+				"method": "GET"
+			},
+			{
+				"id": "86c28076-90ed-4aab-8c43-e52a16ded893",
+				"method": "POST"
+			},
+			{
+				"id": "42150a90-424d-4de9-bd6f-3c5fd1faf0c0",
+				"method": "POST"
+			},
+			{
+				"id": "b2bcb7d9-7a72-4db3-8529-47ab258146ec",
+				"method": "POST"
+			},
+			{
+				"id": "fdce299f-1541-4aa3-8808-526112269ec5",
+				"method": "POST"
+			},
+			{
+				"id": "512026aa-6d58-477c-b0b9-476bc42017c4",
+				"method": "POST"
+			}
+		]
+	}
+}
